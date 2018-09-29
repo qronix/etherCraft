@@ -26,6 +26,9 @@ export default class InventorySlot{
     getItemId(){
         return this.item.getId();
     }
+     getSlotId(){
+        return this.slotId;
+    }
 }
 
 // module.exports = {

@@ -81,12 +81,14 @@ canvas{
     border:1px solid white;
     background: rgb(39, 39, 39);
     background-size: cover;
+    user-select: none;
 }
 .inventorySlot_occ{
     width: 30%;
     flex-grow: 1;
     border:1px solid white;
     /* background: rgb(39, 39, 39); */
+    user-select: none;
     background-size: cover;
 }
 #invSlot_1{
@@ -101,7 +103,8 @@ canvas{
 .slotItemAmt{
     color:yellow;
     position: absolute;
-    margin-left: 2.4%;
+    /* margin-left: -2.4%; */
+    user-select: none;
     margin-top: 1.6%;
 }
 /*End tools panel styling*/
