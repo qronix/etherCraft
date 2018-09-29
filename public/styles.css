@@ -1,0 +1,118 @@
+
+/*Begin general styling*/
+*{
+    padding: 0;
+    margin: 0;
+}
+/*End general styling*/
+
+/*Begin multi element styling*/
+#infoPanel,
+#toolsPanel{
+    flex-grow: 5;
+}
+#infoPanel,
+#toolsPanel,
+canvas{
+    height: 85%;
+}
+/*End multi element styling*/
+
+
+/*Begin game container styling*/
+#gameContainer{
+    border: 1px solid green;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 100vh;
+    background: #4C230A;
+}
+
+canvas{
+    border: 1px solid #E1BB80;
+    flex-grow: 1;
+    margin: 2px;
+}
+
+/*Begin info panel styling*/
+#infoPanel{
+    border:1px solid blue;
+    margin-top: 2px;
+}
+/*End info panel styling*/
+
+/*Begin tools panel styling*/
+#toolsPanel{
+    border:1px solid red;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top:2px;
+    padding-right: 2px;
+}
+
+#craftPanel{
+    display: flex;
+    border: 1px solid black;
+    width: 100%;
+    height: 24%;
+    flex-wrap: wrap;
+    background: #7B6B43;
+}
+.craftSlot{
+    /* background: red; */
+    width: 30%;
+    border:1px solid purple;
+    flex-grow: 1;
+    border:1px solid rgb(39, 39, 39);
+}
+#inventoryPanel{
+    display: flex;
+    width: 100%;
+    height: 75%;
+    flex-wrap: wrap;
+    border: 1px solid white;
+    background: rgb(39, 39, 39);
+}
+.inventorySlot{
+    width: 30%;
+    flex-grow: 1;
+    border:1px solid white;
+    background: rgb(39, 39, 39);
+    background-size: cover;
+}
+.inventorySlot_occ{
+    width: 30%;
+    flex-grow: 1;
+    border:1px solid white;
+    /* background: rgb(39, 39, 39); */
+    background-size: cover;
+}
+#invSlot_1{
+    /* background: url("img/iron_ore.png"); */
+    background-size: cover;
+}
+#invSlot_2{
+    /* background: url("img/wood.png"); */
+    background-size: cover;
+}
+
+.slotItemAmt{
+    color:yellow;
+    position: absolute;
+    margin-left: 2.4%;
+    margin-top: 1.6%;
+}
+/*End tools panel styling*/
+
+/*Begin controls panel styling*/
+#controlsPanel{
+    border:1px solid #F0FFCE;
+    display: block;
+    width: 100%;
+    height: 14%;
+}
+/*End controls panel styling*/
+
+/*End game container styling*/
